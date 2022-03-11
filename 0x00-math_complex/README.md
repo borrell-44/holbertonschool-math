@@ -5,9 +5,6 @@ Project: 0x00. Math - Complex
 
 Write a function that displays the complex numbers, followed by a new line.
 
-    Prototype: void display_complex_number(complex c);
-    You can use printf in your code
-
 1. Write a function that returns the conjugate of a given complex number.
 
     Prototype: complex conjugate(complex c);
