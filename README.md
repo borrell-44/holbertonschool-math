@@ -1,1 +1,2 @@
-C with math related problems\n
+C with math related problems
+
