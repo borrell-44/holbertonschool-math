@@ -10,10 +10,34 @@
 
 void display_complex_number(complex c)
 {
+	double neg;
+
 	printf("%.f", c.re);
 	if (c.im > 0)
-		printf(" + %.fi\n", c.im);
-	else
-		printf("\n");
+	{
+		printf(" + ");
+		if (c.im == 1)
+		{
+			printf("i");
+		}
+		else
+		{
+			printf("%.fi", c.im);
+		}
+	}
+	else if (c.im < 0)
+	{
+		printf(" - ");
+		neg = c.im * -1;
+		if (neg == 1)
+		{
+			printf("i");
+		}
+		else
+		{
+			printf("%.fi", neg);
+		}
+	}
+	printf("\n");
 }
 
