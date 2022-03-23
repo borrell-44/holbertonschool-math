@@ -12,7 +12,7 @@ void display_complex_number(complex c)
 {
 	double neg;
 
-	printf("%.f", c.re);
+	printf("%g", c.re);
 	if (c.im > 0)
 	{
 		printf(" + ");
@@ -22,7 +22,7 @@ void display_complex_number(complex c)
 		}
 		else
 		{
-			printf("%.fi", c.im);
+			printf("%gi", c.im);
 		}
 	}
 	else if (c.im < 0)
@@ -35,7 +35,7 @@ void display_complex_number(complex c)
 		}
 		else
 		{
-			printf("%.fi", neg);
+			printf("%gi", neg);
 		}
 	}
 	printf("\n");
