@@ -1,6 +1,8 @@
 #ifndef HOL_H
 #define HOL_H
 
+#include <math.h>
+
 /**
  * complex - structer of real and imaginary numbers
  *

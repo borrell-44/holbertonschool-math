@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <math.h>
 
 /**
 * modulus - it modulates a given complex number
