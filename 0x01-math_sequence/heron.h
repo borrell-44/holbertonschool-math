@@ -7,10 +7,12 @@
 
 /**
  * struct h_list - singly linked list
- * @p:
- * @x0:
+ * @p: non-perfect square
+ * @x0: iteratiosn
+ * @elt: closet perfect square to p
+ * @next: points to the next node
  *
- * Description: 
+ * Description: linked list for herons sequance
  *
  */
 
@@ -18,6 +20,7 @@ typedef struct h_list
 {
 	double p;
 	double x0;
+
 	long double elt;
 	struct h_list *next;
 } t_cell;

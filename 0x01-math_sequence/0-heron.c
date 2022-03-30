@@ -32,8 +32,8 @@ t_cell *find_conv(t_cell **head)
 
 /**
 * *heron - gives a Heron sequence with an arror less or equal to 10^(-7)
-* @p:
-* @x0:
+* @p: the non-perfect square root
+* @x0: iterations
 *
 * Return: Heron sequence that converges with an error less or equal to 10^(-7)
 */
