@@ -21,7 +21,7 @@ typedef struct h_list
 	double p;
 	double x0;
 
-	long double elt;
+	double elt;
 	struct h_list *next;
 } t_cell;
 
